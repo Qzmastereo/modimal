@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/modimal/",
+    "build": "vite build --base=/modimal/./",
     "preview": "vite preview"
     },
     "devDependencies": {
