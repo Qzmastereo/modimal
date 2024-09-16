@@ -1,3 +1,61 @@
-h1{
-    color: red;
+.header {
+	position: relative;
+	padding: 16px 0 18px;
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+
+.header__nav {
+	margin-left: auto;
+	
+}
+.nav {
+
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	text-align: center;
+	color: #404040;
+	
+
+}
+
+.nav__list {
+	display: flex;
+	gap: 46px;
+	list-style: none;
+
+	a {
+		text-decoration: none;
+		color: #404040;
+		transition: all 0.2s ease-in;
+		&:hover{
+			color: var(--neutral-gray0c0c0c);
+			font-weight: 500;
+		}
+	}
+}
+
+.header__account {
+	&--first {
+		margin-left: auto;
+	}
+}
+
+.header__nav-btn {
+	display: none;
+}
+.account {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	list-style: none;
+	padding-left: 24px;
+	
 }
