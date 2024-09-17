@@ -13,12 +13,18 @@
     height: 750px;
     */
 
+    object-fit: cover;
     width: 50%;
+    display: block;
+    height: 100%;
 }
 
 .followUsImg {
 
     width: 25%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
     
    /* width: 310px;
     height: 375px;
