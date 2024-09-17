@@ -4,8 +4,10 @@
     margin: 0px auto;
 }
 body{
-    margin: 0 auto;
+    margin: 0;
+
 }
+@import'../../node_modules/swiper/swiper-bundle.min.css';
 @import "./sections/header";
 @import "./sections/enjoy";
 @import "./sections/hero";
