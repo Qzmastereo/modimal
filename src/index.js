@@ -36,8 +36,31 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-    blurBackground.addEventListener('click', function() {
-        collectionMenu.classList.remove('visible');
-        blurBackground.classList.remove('active');
-    });
+  
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const openPlusBtn = document.querySelector('.open-plus');
+    const plusMenu = document.querySelector('.plus-menu');
+    const blurBackground = document.createElement('div');
+
+    blurBackground.classList.add('blur-background');
+    document.body.appendChild(blurBackground); 
+
+    openPlusBtn.addEventListener('click', function(event) {
+        event.preventDefault();
+        plusMenu.classList.toggle('visible');
+        blurBackground.classList.toggle('active');
+    });
+
+
+    window.addEventListener('click', function(event) {
+        if (!plusMenu.contains(event.target) && !event.target.classList.contains('open-plus')) {
+            plusMenu.classList.remove('visible');
+            blurBackground.classList.remove('active');
+        }
+    });
+
+
+  
+});
+
