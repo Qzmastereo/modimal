@@ -1,0 +1,154 @@
+.best-sellers__title{
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 600;
+line-height: 44.8px;
+text-align: left;
+}
+
+.best-sellers_text{
+    //styleName: buttonSM;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: right;
+color: rgba(90, 109, 87, 1);
+}
+
+.bestsellers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 64px;
+}
+
+.best-sellers__grid{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.product-card__image{
+    width: 362px;
+}
+
+.product-card__name{
+    //styleName: H6;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+margin: 10px 0;
+text-align: left;
+}
+
+.product-card-description{
+    //styleName: bodyMD;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+margin: 6px 0;
+text-align: left;
+}
+
+.circle-one{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: black;
+}
+
+.circle-two{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: rgba(125, 195, 235, 1);
+}
+
+.circle-three{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: rgba(116, 140, 112, 1);
+}
+
+.circle-four{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: rgba(144, 146, 37, 1);
+}
+
+.circle-five{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: rgba(25, 65, 142, 1);
+}
+
+.circle-six{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: rgba(12, 12, 12, 1);
+}
+
+.circle-seven{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: rgba(208, 165, 234, 1);
+}
+
+.circle-eight{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: rgba(144, 146, 37, 1);
+}
+
+.circle-nine{
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 24px;
+opacity: 0px;
+background-color: rgba(116, 140, 112, 1);
+}
+
+.circle-flex{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product-card__price{
+    //styleName: H6;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 22.4px;
+text-align: left;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
