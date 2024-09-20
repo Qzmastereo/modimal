@@ -1,0 +1,49 @@
+.hero {
+  height: 600px;
+  padding-bottom: 103px;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../img/hero/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .container {
+    height: 100%;
+  }
+}
+
+.hero__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 27px;
+
+  .hero__btn {
+    min-width: 185px;
+    height: 40px;
+    background: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: var(--black);
+    transition: all 0.2s ease-in;
+    border: none;
+    &:hover {
+      background: var(--neutral-grayededed);
+    }
+  }
+
+  .hero__title {
+    font-family: 'Gill Sans MT', sans-serif;
+    max-width: 295px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 180%;
+    color: var(--black);
+  }
+}

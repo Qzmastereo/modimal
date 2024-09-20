@@ -1,0 +1,142 @@
+.plus-menu {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 34px;
+  &.visible {
+    display: block; 
+  }
+  .hidden {
+  display: none; 
+}
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plus-menu_wrap {
+    display: flex;
+    width: 100%;
+
+    .plus {
+      margin-right: 4px;
+      min-width: 190px;
+
+      .plus-title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32.4px;
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+        color: var(--neutral-gray0c0c0c);
+
+        &:hover {
+          color: var(--primary-primary900);
+          font-weight: 500;
+          font-size: 20px;
+        }
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 8px;
+
+          a {
+            text-decoration: none;
+            color: var(--neutral-gray404040);
+            font-size: 18px;
+            transition: color 0.3s ease;
+            font-weight: 400;
+            line-height: 32.4px;
+
+            &:hover {
+              color: var(--neutral-gray868686);
+            }
+          }
+        }
+      }
+    }
+
+    .category {
+      font-size: 20px;
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 20px;
+    }
+    
+    .category-list {
+      .plus-link {
+        font-size: 16px;
+        font-weight: 400;
+        color: #333;
+
+        &:hover {
+          color: #888;
+        }
+      }
+    }
+
+    .plus-menu_wrap {
+      display: flex;
+      justify-content: flex-end;
+      gap: 24px;
+
+      .figure {
+        margin-bottom: 30px;
+
+        .plus-menu-img {
+          width: 208px;
+          height: auto;
+          margin-bottom: 10px;
+        }
+
+        .sub-text {
+          font-size: 16px;
+          font-weight: 500;
+          color: #333;
+        }
+      }
+    }
+  }
+}
+.plus-menu {
+  position: absolute;
+  top: -100%; 
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s ease-in-out; 
+  opacity: 0; 
+  visibility: hidden; 
+}
+
+
+.plus-menu.visible {
+  top: 110px; 
+  opacity: 1;
+  visibility: visible;
+
+}
+
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(8px); 
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 999; 
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out; 
+}
+
+
+.blur-background.active {
+  opacity: 1;
+  visibility: visible;
+}

@@ -1,0 +1,44 @@
+.followUstitle {
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.followUsImgBig {
+ 
+    /*
+    width: 603px;
+    height: 750px;
+    */
+
+    object-fit: cover;
+    width: 50%;
+    display: block;
+    height: 100%;
+}
+
+.followUsImg {
+
+    width: 25%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+    
+   /* width: 310px;
+    height: 375px;
+    */
+
+}
+
+
+
+.followUsImgcnt {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 751px;
+
+}
