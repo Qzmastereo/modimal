@@ -1,0 +1,26 @@
+.collection{
+justify-content: center;
+    display: flex;
+}
+
+.collection__title{
+    padding-top: 98px;
+    margin-bottom: 32px;
+    margin-left: 80px;
+}
+
+.collection__name{
+    display: none;
+}
+
+.collection__grid:last-child{
+    margin-left: 24px;
+}
+
+.collection__image-two{
+    margin-top: 64px;
+}
+
+.collection__image-four{
+margin-top: 144px;
+}

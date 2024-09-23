@@ -6,6 +6,11 @@ line-height: 44.8px;
 text-align: left;
 }
 
+.best-sellers{
+    width: 1224px;
+    margin: 0 auto;
+}
+
 .best-sellers_text{
     //styleName: buttonSM;
 font-family: Montserrat;
@@ -20,13 +25,14 @@ color: rgba(90, 109, 87, 1);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 64px;
+    margin-top: 88px;
+margin-bottom: 25px;
 }
 
 .best-sellers__grid{
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 68px;
 }
 
 .product-card__image{
