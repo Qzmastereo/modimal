@@ -12,8 +12,11 @@ body {
     overflow-x: hidden;
   }
 
+  ul {
+    list-style: none;
+  }
 
 @import'../../node_modules/swiper/swiper-bundle.min.css';
 @import "./sections/header";
 @import "./sections/enjoy";
-
+@import"./untills/register"
