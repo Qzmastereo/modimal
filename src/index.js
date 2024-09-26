@@ -63,4 +63,55 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const openNewBtn = document.querySelector('.open-new');
+    const newMenu = document.querySelector('.new-in-menu');
+    const blurBackground = document.createElement('div');
+
+    blurBackground.classList.add('blur-background');
+    document.body.appendChild(blurBackground); 
+
+    openNewBtn.addEventListener('click', function(event) {
+        event.preventDefault();
+        newMenu.classList.toggle('visible');
+        blurBackground.classList.toggle('active');
+    });
+
+
+    window.addEventListener('click', function(event) {
+        if (!newMenu.contains(event.target) && !event.target.classList.contains('open-new')) {
+            newMenu.classList.remove('visible');
+            blurBackground.classList.remove('active');
+        }
+    });
+
+
+  
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const openSustBtn = document.querySelector('.open-sust');
+    const sustMenu = document.querySelector('.sust-menu');
+    const blurBackground = document.createElement('div');
+
+    blurBackground.classList.add('blur-background');
+    document.body.appendChild(blurBackground); 
+
+    openSustBtn.addEventListener('click', function(event) {
+        event.preventDefault();
+        sustMenu.classList.toggle('visible');
+        blurBackground.classList.toggle('active');
+    });
+
+
+    window.addEventListener('click', function(event) {
+        if (!sustMenu.contains(event.target) && !event.target.classList.contains('open-sust')) {
+            sustMenu.classList.remove('visible');
+            blurBackground.classList.remove('active');
+        }
+    });
+
+
+  
+});
+
 
