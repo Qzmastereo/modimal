@@ -74,25 +74,55 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
-    
+    margin-top: 10px;
+    align-self: center;
 }
 
-.register__under_btn {
+.register__beneath_text {
     margin-top: 10px;
-    font-size: 21px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 .register__log_in_ways {
     display: flex;
-    
+    height: 205px;
     flex-direction: column;
     align-content: center;
     justify-content: space-between;
 }
 
 .or {
-    font-size: 17px;
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.register__social_ways {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 139px;
+    align-self: center;
+}
+
+.register__social_icons {
+    font-size: 35px;
+}
+
+.register__TCPP {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.register__TCPP_link {
+    color: #748C70;
+}
+
+.log_in {
+    color: #748C70;
+    text-decoration: none;
 }
