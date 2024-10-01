@@ -3,6 +3,8 @@
     margin: 20px;
 }
 
+
+
 .register .container {
     height: 100%;
     
@@ -82,6 +84,7 @@
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     align-self: center;
+    padding: 0;
 }
 
 .register__beneath_text {
@@ -97,6 +100,7 @@
     flex-direction: column;
     align-content: center;
     justify-content: space-between;
+    padding: 0;
 }
 
 .or {
@@ -111,6 +115,8 @@
     justify-content: space-between;
     width: 139px;
     align-self: center;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .register__social_icons {
@@ -135,4 +141,14 @@
 
 .log_in:hover {
     color: #404e3e;
+}
+
+.register__social_link {
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+.register__social_link:hover {
+    filter: brightness(0.5);
 }
