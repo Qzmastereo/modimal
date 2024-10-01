@@ -10,8 +10,19 @@ justify-content: center;
 }
 
 .collection__name{
-    display: none;
-}
+    Style: fill;
+    background-color:white;
+    color: black;
+//styleName: buttonSM;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+border: none;
+padding: 10px 65px ;
+position: absolute;
+    }
 
 .collection__grid:last-child{
     margin-left: 24px;
@@ -23,4 +34,34 @@ justify-content: center;
 
 .collection__image-four{
 margin-top: 144px;
+}
+
+@media (max-width: 767px) {
+
+    .collection__name{
+     position: static !important;
+     padding: 10px 30px;   
+     font-size: 20px;
+
+    }
+
+    .collection__image-one{
+        width: 152px;
+        height: 165px;
+    }
+
+    .collection__image-two{
+        width: 152px;
+        height: 253px;    
+    }
+
+    .collection__image-third{
+        width: 152px;
+        height: 276px;
+    }
+
+    .collection__image-four{
+        width: 152px;
+        height: 135px;
+    }
 }
