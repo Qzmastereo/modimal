@@ -4,16 +4,28 @@
 	background-color: #fff;
 	z-index: 1001;
 	font-family: 'Montserrat', sans-serif;
+			@media (max-width: 768px) {
+			padding: 4px 0 8px;
+
+	}
+	.container{
+		--bs-gutter-x: 0;
+	}
 	&__row {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+	
 	}
 }
 
 
 .header__nav {
 	margin-left: auto;
+
+	@media (max-width: 768px) {
+			display: none;
+	}
 	
 }
 .nav {
@@ -23,6 +35,10 @@
 	line-height: 180%;
 	text-align: center;
 	color: #404040;
+
+	@media (max-width: 1199px) {
+			font-size: 14px;
+	}
 	
 
 }
@@ -33,6 +49,14 @@
 	list-style: none;
 	margin-top: 7px;
 	align-items: center;
+
+	@media (max-width: 768px) {
+			display: none;
+
+	}
+	@media (max-width: 1199px) {
+			gap: 20px;
+	}
 
 	a {
 		text-decoration: none;
@@ -48,6 +72,11 @@
 .header__account {
 	&--first {
 		margin-left: auto;
+
+		@media (max-width: 768px) {
+			order: -1;
+			margin-left: unset;
+	}
 	}
 }
 
@@ -59,9 +88,28 @@
 	align-items: center;
 	gap: 24px;
 	list-style: none;
-	padding-left: 24px;
+	margin-right: auto;
+	@media (max-width: 768px) {
+		margin-bottom: 0;
+	}			
+
+	@media (max-width: 1199px) {
+			gap: 12px;
+			margin-left: 12px;
+			padding-left: 0;
+	}
 	
 }
 .open-collection {
   cursor: pointer;
+}
+.icon--person{
+	@media (max-width: 768px) {
+			display: none;
+	}
+}
+.header__logo{
+	@media (max-width: 768px) {
+			margin-left: auto;
+	}
 }
