@@ -3,8 +3,13 @@
   padding-bottom: 103px;
   font-family: "Montserrat", sans-serif;
   background-image: url("../img/hero/hero.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-position: 30% center;
   background-repeat: no-repeat;
+  @media (max-width: 768px) {
+		height: 551px;
+		padding-bottom: 16px;
+	}
 
   .container {
     height: 100%;
@@ -18,6 +23,9 @@
   justify-content: flex-end;
   align-items: flex-start;
   gap: 27px;
+   @media (max-width: 768px) {
+		gap: 32px;
+	}
 
   .hero__btn {
     min-width: 185px;
@@ -33,6 +41,7 @@
     border: none;
     &:hover {
       background: var(--neutral-grayededed);
+      transform: scale(1.1);
     }
   }
 
@@ -44,5 +53,12 @@
     font-size: 34px;
     line-height: 180%;
     color: var(--black);
+    @media (max-width: 1199px) {
+		max-width: 250px;
+	}
+    @media (max-width: 768px) {
+		max-width: 168px;
+		font-size: 20px;
+	}
   }
 }

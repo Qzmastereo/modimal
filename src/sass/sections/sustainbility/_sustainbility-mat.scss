@@ -1,0 +1,95 @@
+.sustainability-mat {
+    font-family: 'Montserrat', sans-serif;
+
+    .sust-title {
+        margin-top: 32px;
+        font-weight: 600;
+        font-size: 32px;
+        letter-spacing: 140%;
+    }
+
+    .sust-text-block {
+        margin-top: 32px;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 180%;
+        margin-bottom: 50px;
+        
+
+        p {
+            text-align: left;
+            margin: 0;
+        }
+    }
+
+    .sust-product {
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+
+        &:first-of-type {
+            margin-top: 48px;
+        }
+
+        
+
+        .product__details {
+            margin-left: 24px;
+
+            .name {
+                font-weight: 700;
+                font-size: 24px;
+                letter-spacing: 140%;
+            }
+
+            p {
+                margin-top: 16px;
+                font-weight: 400;
+                font-size: 18px;
+                letter-spacing: 180%;
+                text-align: left;
+            }
+        }
+    }
+
+    .summary, .report {
+        text-align: left;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 180%;
+    }
+
+    .summary {
+        margin-top: 68px;
+    }
+
+    .report {
+        margin: 48px 0;
+
+        .report-link {
+            color: #748C70;
+            text-decoration: none;
+        }
+    }
+}
+
+.sust-image-one{
+width: 392px;
+height: 359px;
+}
+.sust-image-two{
+width: 496px;
+height: 330px;
+}
+.sust-image-three{
+width: 496px;
+height: 408px;
+}
+.sust-image-four{
+width: 496px;
+height: 408px;
+}
+.sust-image-five{
+width: 392px;
+height: 432px;
+}
