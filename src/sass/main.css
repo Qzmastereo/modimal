@@ -1,0 +1,408 @@
+@import '../../node_modules/swiper/swiper-bundle.min.css';
+.container {
+  width: 1224px;
+  margin: 0px auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  position: relative;
+  padding: 16px 0 18px;
+  background-color: #fff;
+  z-index: 1001;
+  font-family: "Montserrat", sans-serif;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.nav {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: center;
+  color: #404040;
+}
+
+.nav__list {
+  display: flex;
+  gap: 46px;
+  list-style: none;
+  margin-top: 7px;
+  align-items: center;
+}
+.nav__list a {
+  text-decoration: none;
+  color: #404040;
+  transition: all 0.2s ease-in;
+}
+.nav__list a:hover {
+  color: var(--neutral-gray0c0c0c);
+  font-weight: 500;
+}
+
+.header__account--first {
+  margin-left: auto;
+}
+
+.header__nav-btn {
+  display: none;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  padding-left: 24px;
+}
+
+.open-collection {
+  cursor: pointer;
+}
+
+.best-sellers__title {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44.8px;
+  text-align: left;
+}
+
+.best-sellers {
+  width: 1224px;
+  margin: 0 auto;
+}
+
+.best-sellers_text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  color: rgb(90, 109, 87);
+}
+
+.bestsellers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 88px;
+  margin-bottom: 25px;
+}
+
+.best-sellers__grid {
+  display: flex;
+  justify-content: center;
+  gap: 68px;
+}
+
+.product-card__image {
+  width: 362px;
+}
+
+.product-card__name {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.product-card-description {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 6px 0;
+  text-align: left;
+}
+
+.circle-one {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: black;
+}
+
+.circle-two {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: rgb(125, 195, 235);
+}
+
+.circle-three {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: rgb(116, 140, 112);
+}
+
+.circle-four {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: rgb(144, 146, 37);
+}
+
+.circle-five {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: rgb(25, 65, 142);
+}
+
+.circle-six {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: rgb(12, 12, 12);
+}
+
+.circle-seven {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: rgb(208, 165, 234);
+}
+
+.circle-eight {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: rgb(144, 146, 37);
+}
+
+.circle-nine {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: rgb(116, 140, 112);
+}
+
+.circle-flex {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.product-card__price {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection {
+  justify-content: center;
+  display: flex;
+}
+
+.collection__title {
+  padding-top: 98px;
+  margin-bottom: 32px;
+  margin-left: 231px;
+}
+
+.collection__name {
+  display: none;
+}
+
+.collection__grid:last-child {
+  margin-left: 24px;
+}
+
+.collection__image-two {
+  margin-top: 64px;
+}
+
+.collection__image-four {
+  margin-top: 144px;
+}
+
+.enjoy {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding: 8px 0 7px;
+  background-color: #5A6D57;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  color: white;
+  z-index: 1001;
+}
+.enjoy p {
+  margin-bottom: 0;
+}
+
+.register {
+  height: 837px;
+}
+
+.register .container {
+  height: 100%;
+}
+
+.register__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register__account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__title {
+  font-weight: 600;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  padding: 121px 0 32px 0;
+  margin: 0;
+}
+
+.register__input {
+  border: none;
+  outline: 1px solid rgb(96, 96, 96);
+  width: 100%;
+  padding: 16px 9px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.register__input:focus-visible {
+  outline: 2px solid rgb(90, 90, 90);
+  border-radius: 0;
+}
+
+.register__label {
+  width: 100%;
+  height: 40px;
+}
+
+.register__account {
+  width: 392px;
+}
+
+.list {
+  width: 100%;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.register__btn {
+  height: 40px;
+  color: white;
+  background-color: #5a6d57;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.register__log_in {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.register__beneath_text {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.register__log_in_ways {
+  display: flex;
+  height: 205px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.or {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.register__social_ways {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 139px;
+  align-self: center;
+}
+
+.register__social_icons {
+  font-size: 35px;
+}
+
+.register__TCPP {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.register__TCPP_link {
+  color: #748C70;
+}
+
+.log_in {
+  color: #748C70;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
