@@ -1,16 +1,22 @@
 .footer {
     
     background-color: #404040;
-    width: 1920px;
-    height: 417px;
     position: flex; 
     
+    
+
+}
+
+.footerGetEmail {
+
+    display: flex;
+    flex-direction: column;
 
 }
 
 .footerGetEmailTitle {
 
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     color: #FFFFFF;
@@ -23,7 +29,143 @@
     height: 40px;
     width: 496px;
     padding-left: 15px;
-    border: solid ;
+    border: solid 1px #D1D9CF;
+    outline-width: 0;
+    background-color: #404040;
+    color: #D1D9CF;
     
 }
 
+
+
+.footerNavLinkText {
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    margin: 8px;
+    margin-top: 16px;
+
+}
+
+.footerNavLinkContainer {
+
+ margin-top: 15px;
+
+}
+
+.footerNavLinkTitle {
+
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    margin-bottom: 24px;
+    margin-left: 6px;
+
+}
+
+.footerGetEmailSubText {
+
+    font-size:  13px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    width: 420px;
+
+
+}
+
+.footerGetEmailSub {
+
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+
+}
+
+.footerSupportIcon {
+
+    
+    width: 56px;
+    height: 50px;
+   
+   left: 1480px;
+    position: absolute;
+
+}
+
+.footerSocialIcons {
+
+    margin: 8px;
+    width: 24px;
+    height: 24px;
+    
+
+}
+
+.footerSocialIconsContainer {
+
+    display: flex;
+    width: 160px;
+}
+
+
+.footerGetEmailInputArrow {
+
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 1070px;
+    top: 1828px;
+
+}
+
+.footerAllRights {
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #CBCBCB;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    
+    
+}
+
+.footerAllRightsBadge {
+
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #CBCBCB;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.footerNavLinkContainer {
+
+    display: flex;
+    
+    
+    
+
+}
+.footerGetEmailSubContainer {
+
+    display: flex;
+
+}
+
+
+li {
+    list-style-type: none;
+  }
+
+  .formContainer {
+
+    display: flex;
+    justify-content: space-between;
+
+  }

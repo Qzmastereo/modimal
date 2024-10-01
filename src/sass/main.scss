@@ -14,6 +14,7 @@ body {
 
   ul {
     list-style: none;
+    padding: 0;
   }
 
 @import'../../node_modules/swiper/swiper-bundle.min.css';
@@ -32,8 +33,7 @@ body {
 @import "./modals/plus_menu";
 @import "untills/color";
 @import "./modals/new-in_menu";
-@import "untills/register";
+@import "./sections/register";
 @import "./modals/sust_menu";
 @import "./sections/product/shop-all";
 @import "./sections/product/product_modiweek.scss";
-@import "./sections/sustainbility/sustainbility-mat";
