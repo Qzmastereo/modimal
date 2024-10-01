@@ -1,8 +1,8 @@
 import Swiper from "../node_modules/swiper/swiper-bundle.min.mjs";
 const swiper = new Swiper('.mySwiper', {
 
-  slidesPerView: 4,
-      spaceBetween: 30,
+  slidesPerView: 2,
+      spaceBetween: 10,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -10,6 +10,20 @@ const swiper = new Swiper('.mySwiper', {
       navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
   },
 });
 
