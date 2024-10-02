@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sus-mod {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    //styleName: H3;
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 600;
+line-height: 44.8px;
+text-align: left;
+margin-top: 32px;
+}
+
+.sust-mod{
+    margin-top: 34px;
+    //styleName: bodyXL;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+
+}
+
+.mission {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.mission h2 {
+    margin-bottom: 20px;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.p-miss{
+//styleName: H4;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: left;
+margin-bottom: 32px;
+}
+
+.mission-item {
+    width: 40%;
+    padding-bottom: 48px;
+    border-radius: 8px;
+}
+
+.mission-item h3{
+    //styleName: H5;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+
+}
+
+.sust-text{
+    //styleName: bodyXL;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+}
+
+.mission-item p{
+    //styleName: bodyLG;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 32.4px;
+text-align: left;
+}
+
+.steps {
+    padding: 40px;
+    text-align: center;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.gall{
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
+
+.gall-sec{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.mis-but{
+    width: 100%;
+    padding: 10px 0 ;
+    border: 0;
+    background-color: rgba(90, 109, 87, 1);
+    //styleName: buttonLG;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+color: #f0f0f0;
+margin-top: 16px;
+transition: all .20s ease-in 0s;
+}
+
+.mis-but:hover{
+    background-color: rgb(74, 92, 72);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    font-size: 16px;
+}
+
+.button-mis{
+    width: 50%;
+    padding: 10px 0 ;
+    border: 0;
+    background-color: rgba(90, 109, 87, 1);
+    //styleName: buttonLG;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+color: #f0f0f0;
+margin-top: 16px;
+transition: all .20s ease-in 0s;
+margin: 0 auto;
+}
+
+.button-mis:hover{
+    background-color: rgb(74, 92, 72);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    font-size: 16px;
+}
+
+.step-item {
+    width: 45%;
+    
+}
+
+.step-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.sec-text{
+    margin: 48px 0;
+}
