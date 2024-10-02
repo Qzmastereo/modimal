@@ -94,6 +94,17 @@ text-align: left;
 margin-bottom: 32px;
 }
 
+.p-over{
+    //styleName: H2;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 56px;
+text-align: center;
+color: white;
+padding-top: 347px;
+}
+
 .mission-item {
     width: 40%;
     padding-bottom: 48px;
@@ -218,12 +229,15 @@ margin: 0 auto;
     margin: 48px 0;
 }
 
+.over{
+    height: 460px;
+}
 
 .overlay-text{
-    background-image: url(/src/img/main/big\ pic.svg);
+    background-image: url(/img/main/big\ pic.svg);
     background-size: cover;
     width: 100%;
-    height: 100px;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
@@ -250,6 +264,25 @@ background-color: white !important;
     display: none;
 }
 
+@media (max-width: 441px) {
+    .over{
+        height: 163px !important;
+    }
+
+    .p-over{
+        padding-top: 97px !important;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 442px) {
+
+    .p-over{
+    padding-top: 147px !important;
+    font-size: 31px;
+    }
+}
+
 @media (max-width: 767px) {
     .mission-container-second{
         display: block;
@@ -265,10 +298,17 @@ background-color: white !important;
         object-fit: cover;
     }
 
+
+
     .img-gall{
         width: 100%;
     object-fit: cover;
 }
+
+.over{
+    height: 294px;
+}
+
 
 .gall-sec{
 
