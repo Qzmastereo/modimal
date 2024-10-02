@@ -1,0 +1,42 @@
+.sustainability {
+    height: 526px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.background {
+    width: 526px;
+    height: 1380px;
+    background-image: url('https://s3-alpha-sig.figma.com/img/7334/3a2e/46a3292a688d377f709b49925f785870?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e-yQD5l7niClFkyEWmAH-8MjnZNymWVJY40KPmBtI9HUc9siiv39Np68MMlhyGGRdzpF~imvSV~ejHNvqdGkP4KeMi~6SmIU2v31u-sUTqzxyejRqSpe1-57~NI0N-lTcmsbjSAwLybB6OroOhV4vLQn224GQHLDUsUrphjhmtD56-nQd23RGiXOIsrxkyRA3dpGa5f2YHJ9aEEmwWtKKYsvwxZ5xmhuxrAJ5GQEu9E6ssgRXrSnbvbbbs3~kMobvddezgf7pLbhLkabGcvMGVvjqkr3GueFbiXa~0eW-zM2sbo5eKel1FZbVuBHj3OqCiF0dPwFek7IU0L3JglGhg__');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 696px 1380px;
+    transform: rotate(90deg);
+    position: absolute;
+}
+
+.sustainability__text {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    transform: rotate(-90deg);
+    left: 30%;
+    top: 300px;
+}
+
+.sustainability__btn {
+    border: none;
+    padding: 8px 44px;
+    transform: rotate(-90deg);
+    position: relative;
+    left: 76%;
+    top: 100px;
+    font-size: 14px;
+}
+
+.sustainability__btn:hover {
+    background-color: #d2d2d2;
+}
