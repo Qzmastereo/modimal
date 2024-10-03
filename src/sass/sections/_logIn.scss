@@ -1,27 +1,28 @@
-.register {
+.logIn {
     height: 837px;
     margin: 20px;
 }
 
 
 
-.register .container {
+.logIn .container {
     height: 100%;
     
 }
 
-.register__wrap {
+.logIn__wrap {
     display: flex;
     justify-content: space-between;
 }
 
-.register__account {
+.logIn__logIn {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 392px;
 }
 
-.register__title {
+.logIn__title {
     font-weight: 600;
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
@@ -29,7 +30,7 @@
     margin: 0;
 }
 
-.register__input {
+.logIn__input {
     border: none;
     outline: 1px solid rgba(96, 96, 96, 1);
     width: 100%;
@@ -38,47 +39,43 @@
     box-sizing: border-box;
 }
 
-.register__input:focus-visible {
+.logIn__input:focus-visible {
     outline: 2px solid rgba(90, 90, 90, 1);
     border-radius: 0;
 }
 
-.register__label {
+.logIn__label {
     width: 100%;
     height: 40px;
     
 }
 
-.register__account {
-    width: 392px;
-}
-
-.list {
+.logIn__list {
     width: 100%;
-    height: 236px;
+    height: 88px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.register__btn {
+.logIn__btn {
     height: 40px;
     color: white;
     background-color: #5a6d57;
     border: none;
-    
+    width: 100%;
     font-weight: 400;
     font-size: 16px;
     margin-top: 4px;
 }
 
-.register__btn:hover {
+.logIn__btn:hover {
     background-color: #404e3e;
     cursor: pointer;
 }
 
-.register__log_in {
-    width: 73%;
+.logIn__log_in {
+    width: 65%;
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
@@ -87,14 +84,14 @@
     padding: 0;
 }
 
-.register__beneath_text {
+.logIn__beneath_text {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-.register__log_in_ways {
+.logIn__log_in_ways {
     display: flex;
     height: 205px;
     flex-direction: column;
@@ -103,13 +100,14 @@
     padding: 0;
 }
 
-.or {
+.logIn__or {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin: 24px 0;
 }
 
-.register__social_ways {
+.logIn__social_ways {
     height: 35px;
     display: flex;
     justify-content: space-between;
@@ -119,19 +117,19 @@
     margin-bottom: 10px;
 }
 
-.register__social_icons {
+.logIn__social_icons {
     font-size: 35px;
 }
 
-.register__TCPP {
-    font-size: 13px;
+.logIn__NTD {
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align: center;
-    margin-top: 14px;
+    margin-top: 24px;
 }
 
-.register__TCPP_link {
+.logIn__NTD-link {
     color: #748C70;
 }
 
@@ -144,12 +142,31 @@
     color: #404e3e;
 }
 
-.register__social_link {
+.logIn__social_link {
     text-decoration: none;
     border-radius: 50%;
 }
 
 
-.register__social_link:hover {
+.logIn__social_link:hover {
     filter: brightness(0.5);
+}
+
+.logIn__fp {
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    margin: 8px 0 18px 0;
+}
+
+.logIn__fp-link {
+    color: #748C70;
+    text-decoration: none;
+}
+
+.logIn__fp-link:hover {
+    color: #404e3e;
 }

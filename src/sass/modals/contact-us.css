@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container__nav {
+  background-color: #fff;
+  margin-top: 42px;
+}
+
+.homee {
+  color: #4a5d49 !important;
+}
+
+.container__nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+}
+
+.container__nav-link {
+  text-decoration: none;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container__nav-separator {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  text-align: center;
+}
+
+.main-cont {
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.contact-us__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44.8px;
+  text-align: center;
+  text-align: left;
+}
+
+.haki-container {
+  padding: 16px;
+  background-color: rgb(240, 242, 239);
+}
+
+.contact-us__intro {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.contact-us__response-time {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.contact-form {
+  margin-bottom: 40px;
+}
+
+.contact-form__text {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+.flex-icon {
+  display: flex;
+  align-items: center;
+}
+
+.contact-form__select {
+  color: grey;
+}
+
+.material-symbols-outlined {
+  font-size: 26px !important;
+}
+
+.contact-form__title {
+  align-items: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  margin-top: 21px;
+  margin-left: 10px;
+}
+
+.contact-form__label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-form__input,
+.contact-form__select,
+.contact-form__textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.9411764706);
+}
+
+.contact-form__button {
+  padding: 8px 120px;
+  background-color: #4a5d49;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 24px;
+  position: sticky;
+  left: 100%;
+}
+
+.contact-form__button:hover {
+  background-color: #3b4b38;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contact-options__item {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(240, 242, 239);
+  text-align: center;
+}
+
+.contact-options__title {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: center;
+}
+
+.contact-options__text {
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+}
+
+.button_to-chat {
+  background-color: white !important;
+  border: 0 !important;
+  color: #000000 !important;
+}
+
+.contact-options__button,
+.contact-options__link {
+  border: solid 1px #4a5d49;
+  color: #4a5d49;
+  width: 100%;
+  text-decoration: none;
+}
+
+.contact-options__item--call {
+  display: grid;
+}
+
+.contact-options__button:hover,
+.contact-options__link:hover {
+  background-color: rgb(211, 217, 209);
+}
+
+.contact-form__privacy {
+  display: flex;
+  align-items: center;
+}
+
+.contact-form__checkbox-label {
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+}
+
+.contact-option {
+  display: none;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.chat-with {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .contact-option {
+    display: block;
+  }
+  .chat-with {
+    display: block !important;
+  }
+  .chatt {
+    display: none;
+  }
+  .contact-form__button {
+    width: 100%;
+  }
+  .contact-options__text {
+    font-size: 16px;
+  }
+  .button_to-chat {
+    width: 100%;
+    border: 0;
+    background-color: white;
+    display: flex;
+  }
+  .flex-icon {
+    margin-left: 20px;
+  }
+  .contact-options__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-options {
+    display: none;
+  }
+  .contact-options__title {
+    margin-bottom: 0 !important;
+    margin-left: 10px;
+  }
+}/*# sourceMappingURL=contact-us.css.map */
