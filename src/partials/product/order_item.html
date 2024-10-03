@@ -1,0 +1,71 @@
+ <section class="order">
+ <div class="container my-5">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="thumbnail-gallery">
+          <div class="thumb">
+            <img src="img/product/order/type-one.png" class="img-fluid" alt="Thumbnail 1">
+          </div>
+          <div class="thumb">
+            <img src="img/product/order/type-m.png" class="img-fluid" alt="Thumbnail 2" >
+          </div>
+          <div class="thumb">
+            <img src="img/product/order/type-two.png" class="img-fluid" alt="Thumbnail 3" >
+          </div>
+          <div class="thumb">
+            <img src="img/product/order/type-three.png" class="img-fluid" alt="Thumbnail 4">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="large-image">
+          <img id="mainImage" src="img/product/order/type-m.png" class="img-fluid" alt="Wrap Top">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="title-order-top">Wrap Top</h2>
+        <p class="description-oreder">Versatile and Universally Flattering, Our Wrap Boluse Can Be Tied, Draped, Snapped And Wrapped Multiple Ways.</p>
+
+
+        <div class="colors">
+          <label>Colors:</label>
+          <span class="color-option red"></span>
+          <span class="color-option white"></span>
+        </div>
+
+        <div class="guide">
+            <p>Size Guide</p>
+            </div>
+        <select id="size" class="form-control w-50 mb-3">
+            <option>Size</option>
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+        
+
+        <button class=" btn-success btn-lg">Add To Cart + $160</button>
+
+        <div class="privilage">
+            <div class="delivery">
+            <img src="img/product/order/like.svg" alt="">
+            <p>Easy Return</p>
+            </div>
+            <div class="wish">
+                <img src="img/product/order/car.svg" alt="">
+                <p>Add To Wish List</p>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</section>
+  <script>
+    function changeImage(imageSrc) {
+        document.getElementById('mainImage').src = imageSrc;
+    }
+</script>

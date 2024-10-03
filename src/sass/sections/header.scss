@@ -50,6 +50,9 @@
 	margin-top: 7px;
 	align-items: center;
 
+	@media (max-width: 992px)  {
+		gap: 5px;
+	}
 	@media (max-width: 768px) {
 			display: none;
 
@@ -106,5 +109,10 @@
 .icon--person{
 	@media (max-width: 768px) {
 			display: none;
+	}
+}
+.modiweek{
+	@media (max-width: 992px)  {
+		display: none;
 	}
 }
