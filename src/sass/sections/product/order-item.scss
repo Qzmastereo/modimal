@@ -1,0 +1,113 @@
+.order{
+    font-family: 'Montserrat', sans-serif;
+}
+.thumbnail-gallery {
+  height: 512px;
+  overflow-y: auto;
+  width: 180px;
+}
+
+.thumb {
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  img {
+    width: 145px;
+    &:hover {
+      border-color: #007bff;
+    }
+  }
+}
+
+.large-image img {
+  max-width: 425px;
+  height: 512px;
+}
+
+.colors {
+  margin-bottom: 1rem;
+  width: 75px;
+  label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+  }
+  .color-option {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    &.red {
+      background-color: red;
+    }
+    &.white {
+      background-color: white;
+    }
+  }
+}
+
+.accordion .card-header {
+  background-color: #f8f9fa;
+}
+
+.accordion .btn-link {
+  color: #343a40;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.btn-success{
+    width: 100%;
+  margin-bottom: 50px;
+  background-color: #5A6D57;
+  padding: 8px;
+  border: none;
+  color: #ffffff;
+}
+.form-control{
+    min-width: 100%;
+    border-radius: 0 !important; 
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+.guide{
+    font-size: 14px;
+    color: #868686;
+    text-align: end;
+    margin-top: 60px;
+}
+.privilage{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        margin-bottom: 0;
+        color: #868686;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    img{
+        margin-right: 7px;
+    }
+}
+.delivery{
+    align-items: center;
+    display: flex;
+    margin-left: 12px;
+}
+.wish{
+    align-items: center;
+    display: flex;
+}
+.title-order-top{
+    color: #0C0C0C;
+    font-size: 32px;
+    font-weight: 600;
+}
+.description-oreder{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0C0C0C;
+}
