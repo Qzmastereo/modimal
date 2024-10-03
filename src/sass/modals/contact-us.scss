@@ -239,6 +239,10 @@ text-align: left;
     display: none;
 }
 
+.no-scroll {
+    overflow: hidden;
+   }
+
 @media (max-width: 767px) {
     .contact-option{
         display: block  ;
