@@ -1,0 +1,67 @@
+.faqs{
+     .accordion-item {
+  border: none;
+  margin-bottom: 16px;
+
+
+  .accordion-header {
+    .accordion-button {
+      background-color: #ffffff;
+      color: #0C0C0C;
+      border: none;
+      border-top-left-radius: 0%!important;
+      border-top-right-radius: 0% !important;
+      font-weight: 700;
+      font-size: 20px;
+      &:focus {
+        box-shadow: none;
+      }
+
+      &::after {
+        filter: invert(0%);
+        
+      }
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: white;
+      color: #748c70;
+      border: 2px solid #748c70;
+
+      &::after {
+        filter: invert(0%);
+      }
+    }
+  }
+   .form-check-label{
+    color: #0C0C0C;
+    font-weight: 400;
+    font-size: 16px;
+ }
+  .accordion-collapse {
+    .accordion-body {
+      background-color: #ffffff;
+
+      .form-check-input[type="radio"] {
+        border-radius: 0% !important;
+        --bs-form-check-bg-image: url(data) !important;
+        width: 18px;
+        height: 18px;
+        border: 2px solid #748c70;
+        background-color: transparent;
+        color: #748c70;
+
+        &:checked {
+          background-color: #748c70;
+          color: #748c70;
+          border: 2px solid #748c70;
+        }
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,96 @@
+.order-like {
+    
+     font-family: "Montserrat", sans-serif;
+  .order-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+  }
+
+  .order-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+
+  }
+
+  .order__grid-item {
+    background-color: #fff;
+    padding: 15px;
+        .yellow-card{
+        padding: 12px;
+    }
+    .orange-card{
+        padding: 12px;
+    }
+    .black-card{
+        padding: 12px;
+    }
+    .green-card{
+        padding: 12px;
+    }
+    .lblue-card{
+        padding: 12px;
+    }
+    .order-image__wrapper {
+      margin-bottom: 15px;
+
+      img {
+        max-width: 100%;
+        max-height: 438px;
+      }
+    }
+
+    .like-name {
+      font-size: 16px;
+      font-weight: bold;
+      color: #0C0C0C;
+      margin-bottom: 7px;
+    }
+
+    .like-description {
+      font-size: 16px;
+      font-weight: 400;
+      color: #0C0C0C;
+      margin-bottom: 15px;
+    }
+
+    .like-options {
+      margin-bottom: 10px;
+    }
+    .like-price{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .like-price,
+    .product-price {
+      font-size: 16px;
+      color: #0C0C0C;
+      font-weight: 700;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+    .order-like{
+    .order-grid {
+        display: flex;
+        justify-content: space-between;
+
+        .order__grid-item{
+            width: 50%;
+        }
+    }
+    }
+    .order-grid .order__grid-item:nth-child(3) {
+        display: none; 
+        
+    }
+    .like-price{
+        display: flex;
+        justify-content: baseline;
+        flex-wrap: wrap;
+    }
+}

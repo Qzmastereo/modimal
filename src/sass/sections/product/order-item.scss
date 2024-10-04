@@ -1,5 +1,9 @@
 .order{
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    .row{
+        margin-top: 30px;
+    }
 }
 .thumbnail-gallery {
   height: 512px;
@@ -111,3 +115,128 @@
     font-weight: 400;
     color: #0C0C0C;
 }
+.wif{
+    max-width: 200px !important;
+}
+.item_swiper{
+    display: none;
+}
+.order-swiper_img{
+    width: 100%;
+    max-height: 770px;
+    margin-bottom: 40px;
+}
+@media (max-width: 1400px) and (min-width: 993px) {
+    .order{
+    .container{
+        width: 100%;
+    }
+}
+    .right-or {
+        font-size: 90%; 
+    }
+
+    .title-order-top {
+        font-size: 28px;
+    }
+
+    .description-oreder {
+        font-size: 16px;
+    }
+
+    .btn-success {
+        padding: 6px;
+        font-size: 16px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    .colors {
+        width: 60px;
+    }
+
+    .color-option {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .item_swiper{
+    display: block;
+}
+    .thumbnail-gallery {
+        height: auto;
+        width: 100%;
+        display: flex;
+        overflow-x: auto;
+        padding-bottom: 15px;
+    }
+    .wif{
+        display: none;
+    }
+    .thumb img {
+        width: 80px;
+    }
+    .img-fluid{
+        width: 100%;
+    }
+    .large-image img {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .col-md-2, .col-md-4, .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .right-or {
+        order: 3; 
+        margin-top: 20px;
+    }
+
+    .colors {
+        width: 100%;
+    }
+
+    .btn-success {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .privilage {
+        align-items: flex-start;
+    }
+
+    .privilage p {
+        font-size: 12px;
+    }
+
+    .title-order-top {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .description-oreder {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .guide {
+        text-align: center;
+    }
+}
+
