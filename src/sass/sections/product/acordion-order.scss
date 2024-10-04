@@ -1,0 +1,122 @@
+.accordion{
+font-family: 'Montserrat', sans-serif;
+    .or{
+
+
+    .accordion-item {
+    border: none;
+    margin-bottom: 0 ;
+    align-items: center;
+    .accordion-text{
+        font-size: 16px;
+        font-weight: 400;
+        }
+
+  .accordion-header {
+    margin-bottom: 0;
+    .accordion-button {
+      background-color: #F0F2EF;
+      color: #0C0C0C;
+      border: none;
+      border-top-left-radius: 0%!important;
+      border-top-right-radius: 0% !important;
+      border-bottom-right-radius: 0%;
+      border-bottom-left-radius: 0%;
+      font-weight: 700;
+      font-size: 20px;
+      &:focus {
+        box-shadow: none;
+      }
+
+      &::after {
+        content: "+";
+        background-image: none;
+        font-size: 30px;
+        font-weight: 500;
+        color: #0C0C0C;
+        filter: invert(0%);
+        transition: none;
+        
+      }
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #F0F2EF;
+      color: #748c70;
+      border: 2px solid #748c70;
+
+      &::after {
+       content: "-";
+        background-image: none;
+        font-size: 30px;
+        filter: invert(0%);
+        color: #748c70;
+        transition: none;
+      }
+    }
+  }
+   .form-check-label{
+    color: #0C0C0C;
+    font-weight: 400;
+    font-size: 16px;
+ }
+  .accordion-collapse {
+    .accordion-body {
+      background-color: #F0F2EF;
+
+      .form-check-input[type="radio"] {
+        border-radius: 0% !important;
+        --bs-form-check-bg-image: url(data) !important;
+        width: 18px;
+        height: 18px;
+        border: 2px solid #748c70;
+        background-color: transparent;
+        color: #748c70;
+
+        &:checked {
+          background-color: #748c70;
+          color: #748c70;
+          border: 2px solid #748c70;
+        }
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+}
+}
+.custom-card {
+      background-color: #F0F2EF; 
+      padding: 20px;
+    }
+    .material-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .tags {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .tag {
+      background-color: #ffffff;
+      padding: 10px 20px;
+      font-weight: bold;
+    }
+@media (max-width: 992px){
+    .accordion-order{
+    .col-md-6{
+        width: 100%;
+        order: 1;
+    }
+    }
+    #silk{
+        order: -1;
+    }
+    .tags{
+      flex-wrap: wrap;
+    }
+}
