@@ -16,8 +16,8 @@
 
     <title>Modimal</title>
   <script type="module" crossorigin src="./assets/vendor-c4916ffe.js"></script>
-  <script type="module" crossorigin src="./assets/index-32ec6b72.js"></script>
-  <link rel="stylesheet" href="./assets/index-35bdf6c9.css">
+  <script type="module" crossorigin src="./assets/index-c8c09799.js"></script>
+  <link rel="stylesheet" href="./assets/index-e0716891.css">
 </head>
 
 <body>
@@ -309,9 +309,16 @@
     </div>
 </section>
      <section class="order">
- <div class="container my-5">
+ <div class="container">
+  <div class="patch-title">
+    <p class="home">Home</p>
+    <p>/</p>
+    <p class="home">Top & Blouses</p>
+    <p>/</p>
+    <p>Wrap Top</p>
+  </div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col wif">
         <div class="thumbnail-gallery">
           <div class="thumb">
             <img src="./assets/type-one-2af97486.png" class="img-fluid" alt="Thumbnail 1">
@@ -328,13 +335,21 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md">
         <div class="large-image">
           <img id="mainImage" src="./assets/type-m-718e5162.png" class="img-fluid" alt="Wrap Top">
         </div>
       </div>
-
-      <div class="col-md-6">
+      <div class="item_swiper">
+      <swiper-container class="mySwiper" space-between="30" pagination="true" pagination-clickable="true">
+        <swiper-slide><img src="./assets/type-eight-076d5319.png" alt="" class="order-swiper_img"></swiper-slide>
+        <swiper-slide><img src="./assets/type-five-45cb1d34.png" alt=""  class="order-swiper_img"></swiper-slide>
+        <swiper-slide><img src="./assets/type-six-e77d3d23.png" alt=""  class="order-swiper_img"></swiper-slide>
+        <swiper-slide><img src="./assets/type-seven-96381f46.png" alt=""  class="order-swiper_img"></swiper-slide>
+      </swiper-container>
+      </div>
+    <div class="col-md">
+        <div class="right-or">
         <h2 class="title-order-top">Wrap Top</h2>
         <p class="description-oreder">Versatile and Universally Flattering, Our Wrap Boluse Can Be Tied, Draped, Snapped And Wrapped Multiple Ways.</p>
 
@@ -368,7 +383,8 @@
                 <p>Add To Wish List</p>
             </div>
         </div>
-        
+        </div>
+    </div>
       </div>
     </div>
     
@@ -379,6 +395,160 @@
         document.getElementById('mainImage').src = imageSrc;
     }
 </script>
+    <section class="accordion-order">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="or">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Fitting
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <p class="accordion__text">Details about the product go here.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Fabric & Care
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <p class="accordion__text">
+                                    Fabric :
+                                    Tailored Stretch,
+                                    Made in Italy62% Nylon, 38% Elastane, 100% vegan materials
+                                    Care:
+                                    Cold machine wash, line dry
+                                    Do not tumble dry or dry clean, Do not use bleach or fabric softener
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Product Detail
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <p class="accordion__text">Details about the product go here.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
+                                Shipping And Return
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                <p class="accordion__text">
+                                    Shipping:
+                                    is free on US, Canada orders are $175
+                                    Returns:
+                                    Unwashed, unworn items are eligible for returns or exchanges within 30 days of
+                                    purchase.
+                                    Final Sale items are not eligible for returns or exchanges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" id="silk">
+                <div class="custom-card">
+                    <div class="material-title">Silk</div>
+                    <p>This Material Is Our Signature High-Stretch Fabric That Drapes Like Silk And Is Soft To The
+                        Touch. Silk Is OEKO-TEX® Certified And Made In Italy In A Mill 100% Powered By Renewable
+                        Energy (Solar And Biomass).</p>
+                    <div class="tags">
+                        <div class="tag">Quick Dry</div>
+                        <div class="tag">Chemical Free</div>
+                        <div class="tag">Machine Washable</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="order-like my-5">
+    <div class="container">
+    <h2 class="order-title">You May Also Like</h2>
+    <div class="order-grid">
+        <div class="order__grid-item">
+            <div class="order-image__wrapper">
+                <img src="./assets/shop-all-item3-554076b8.png" alt="Shirt Dress" class="order-imag">
+            </div>
+            <p class="like-name">Shirt Dress</p>
+            <div class="like-price">
+            <p class="like-description">Turn It Up Dress</p>
+            <p class="like-price">$245</p>
+        </div>
+        <div class="buttons-card">
+            <button class="black-card"> </button>
+            <button class="lblue-card"> </button>
+            <button class="green-card"> </button>
+        </div>
+        </div>
+
+        <div class="order__grid-item">
+            <div class="order-image__wrapper">
+                <img src="./assets/shop-all-item7-4c91224c.png" alt="Chill Wrap Top" class="order-imag">
+            </div>
+            <p class="like-name">Chill Wrap Top</p>
+            <div class="like-price">
+            <p class="like-description">Turn It Up Top</p>
+            <p class="like-price">$199</p>
+            </div>
+            <div class="buttons-card">
+                <button class="yellow-card"> </button>
+            </div>
+        </div>
+
+        <div class="order__grid-item">
+            <div class="order-image__wrapper">
+                <img src="./assets/shop-all-item4-cfe49f2a.png" alt="Rule Zip Jacket" class="order-imag">
+            </div>
+            <p class="like-name">Rule Zip Jacket</p>
+            <div class="like-price">
+            <p class="like-description">Turn It Up Jacket</p>
+                <p class="product-price">$199</p>
+            </div>
+            <div class="buttons-card">
+                <button class="yellow-card"> </button>
+                <button class="orange-card"> </button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
     <footer class="footer">
     <div class="container">
 
@@ -455,6 +625,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>
