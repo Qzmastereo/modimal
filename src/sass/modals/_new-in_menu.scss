@@ -138,3 +138,37 @@
   opacity: 1;
   visibility: visible;
 }
+@media (max-width: 1199px) {
+  .new-in-menu-img{
+        max-width: 165px;
+      }
+      .new-in-menu_wrap {
+  display: flex;
+  gap: 15px;
+}
+	}
+  @media (max-width: 992px) {
+      .category-list{
+        max-width: 170px !important;
+        min-width: 165px !important;
+      }
+      .new-in{
+        margin-right: 0 !important;
+      }
+      .new-in-menu-img{
+        max-width: 130px;
+      }
+      .new-in-link{
+        font-size: 15px;
+      }
+      .new-in-title{
+        font-size: 15px;
+      }
+      .sub-text{
+        font-size: 14px;
+      }
+      .new-in-menu_wrap {
+  display: flex;
+  gap: 7px;
+}
+	}

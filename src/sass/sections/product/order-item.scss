@@ -218,7 +218,17 @@
     }
 
     .privilage {
-        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .delivery{
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .wish{
+            justify-content: center;
+        }
     }
 
     .privilage p {

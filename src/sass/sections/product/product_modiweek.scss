@@ -108,3 +108,74 @@
         font-size: 11.7px;
     }
 }
+@media (max-width: 1199px) {
+       .shop-modiweek{
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+       }
+       .left-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+        .title{
+            text-align: center;
+        }
+       }
+       .right-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+       }
+
+	}
+  @media (max-width: 768px) {
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+        .title{
+            text-align: start;
+        }
+       }
+    .left-section{
+        width: 100%;
+    .image{
+        width: 100%;
+    }
+    }
+    .item-list{
+        .item{
+            max-width: 220px !important;
+            .item-img{
+                width: 100%;
+            }
+        }
+    }
+ }
+
+   @media (max-width: 575px) {
+    .left-section{
+        width: 100%;
+    .image{
+        width: 100%;
+        height: 670px;
+    }
+    }
+    .item-list{
+        gap: 5px;
+        .item{
+            max-width: 200px !important;
+            .item-img{
+                width: 100%;
+            }
+        }
+    }
+ }
