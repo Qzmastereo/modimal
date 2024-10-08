@@ -15,8 +15,8 @@
 
     <title>Modimal</title>
     <script type="module" crossorigin src="./assets/vendor-c4916ffe.js"></script>
-    <script type="module" crossorigin src="./assets/index-83e8dcd6.js"></script>
-    <link rel="stylesheet" href="./assets/index-4550e81f.css">
+    <script type="module" crossorigin src="./assets/index-13faac9d.js"></script>
+    <link rel="stylesheet" href="./assets/index-0c4d0e52.css">
   </head>
   <body>
 
@@ -70,7 +70,16 @@
                 </li>
                 <li>
                     <a href="№">
-                        <img class="icon icon--bag" src="./assets/Header_bag_icon-359dcf91.svg" alt="">
+                        <img class="icon icon--bag " id="myBtn" src="./assets/Header_bag_icon-359dcf91.svg" alt="">
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <p>Some text in the Modal..</p>
+                            </div>
+                          
+                          </div>
                     </a>
                 </li>
             </ul>
@@ -306,6 +315,30 @@
 
     </div>
 </section>
+    <div class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Ваш кошик</h2>
+        <div class="cart-item">
+            <div class="item-details">
+                <h3>Wrap Top</h3>
+                <p>Розмір: S</p>
+                <p>Колір: Білий</p>
+            </div>
+            <div class="item-quantity">
+                <button class="decrease">-</button>
+                <span class="quantity">1</span>
+                <button class="increase">+</button>
+                <button class="remove-btn">Видалити</button>
+            </div>
+            <p class="item-price">$160</p>
+        </div>
+        <!-- Додайте інші елементи аналогічно до цього -->
+        <button class="checkout-btn">Оформити замовлення</button>
+    </div>
+</div>
+
+
     <section class="hero">
     <div class="container">
         <div class="hero__content">
