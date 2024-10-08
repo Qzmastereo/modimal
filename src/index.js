@@ -114,38 +114,28 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
 });
-document.addEventListener('DOMContentLoaded', function() {
-    const openSustBtn = document.querySelector('.open-sust');
-    const sustMenu = document.querySelector('.sust-menu');
-    const blurBackground = document.createElement('div');
+// Get the modal
+var modal = document.getElementById("myModal");
 
-    blurBackground.classList.add('blur-background');
-    document.body.appendChild(blurBackground); 
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
-    openSustBtn.addEventListener('click', function(event) {
-        event.preventDefault();
-        sustMenu.classList.toggle('visible');
-        blurBackground.classList.toggle('active');
-    });
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
 
-    window.addEventListener('click', function(event) {
-        if (!sustMenu.contains(event.target) && !event.target.classList.contains('open-sust')) {
-            sustMenu.classList.remove('visible');
-            blurBackground.classList.remove('active');
-        }
-    });
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
-
-  
-});
-
-document.getElementById('staticBackdrop').addEventListener('show.bs.modal', function () {
-    // При відкритті модального вікна блокуємо прокрутку
-    document.body.style.overflow = 'hidden';
-});
-
-document.getElementById('staticBackdrop').addEventListener('hidden.bs.modal', function () {
-    // При закритті модального вікна відновлюємо прокрутку
-    document.body.style.overflow = 'auto';
-});
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
