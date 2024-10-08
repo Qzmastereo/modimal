@@ -38,7 +38,20 @@
     
 }
 
+.footerGetEmailInputContainer {
 
+  position: relative;
+
+}
+
+.btnInput {
+
+  position: absolute;
+  top: 17px;
+  right: 210px;
+  background:none;
+
+}
 
 .footerNavLinkText {
 
@@ -112,6 +125,7 @@
 
 .footerSocialIconsContainer {
 
+   
     display: flex;
     width: 160px;
 }
@@ -119,7 +133,7 @@
 
 .footerGetEmailInputArrow {
 
-    position: absolute;
+
     width: 16px;
     height: 16px;
     right: 1070px;
@@ -174,43 +188,43 @@ li {
 
   }
 
-.footer .container {
+  .footer .container {
 
     position: relative;
 
 }
 
   
-  @media (max-width: 1199px) {
-    .container {
-      max-width: 960px;
-    }
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
   }
-  
-  /* Medium: 768px - 991px */
-  @media (max-width: 991px) {
-    .container {
-      max-width: 720px;
-    }
+}
 
-    .formContainer {
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
 
-        flex-direction: column;
+  .formContainer {
 
-    }
+      flex-direction: column;
+
   }
-  
-  /* Small: 576px - 767px */
-  @media (max-width: 767px) {
-    .container {
-      max-width: 540px;
-    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
   }
-  
-  /* Extra small: 0px (320px) - 575px */
-  @media (max-width: 575px) {
-    .container {
-      padding: 0 15px;
-                                          max-width: 100%;
-    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+  .container {
+    padding: 0 15px;
+                                        max-width: 100%;
   }
+}
