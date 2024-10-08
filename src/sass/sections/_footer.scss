@@ -16,6 +16,7 @@
 
 .footerGetEmailTitle {
 
+    margin-top: 35px;
     font-size: 22px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
@@ -26,6 +27,7 @@
 
 .footerGetEmailInput {
 
+    margin-top: 20px;
     height: 40px;
     width: 496px;
     padding-left: 15px;
@@ -68,6 +70,7 @@
 
 .footerGetEmailSubText {
 
+    margin: 8px;
     font-size:  13px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
@@ -91,8 +94,9 @@
     
     width: 56px;
     height: 50px;
+   bottom: 50px;
+   right: 50px;
    
-   left: 1480px;
     position: absolute;
 
 }
@@ -168,4 +172,45 @@ li {
     display: flex;
     justify-content: space-between;
 
+  }
+
+.footer .container {
+
+    position: relative;
+
+}
+
+  
+  @media (max-width: 1199px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  /* Medium: 768px - 991px */
+  @media (max-width: 991px) {
+    .container {
+      max-width: 720px;
+    }
+
+    .formContainer {
+
+        flex-direction: column;
+
+    }
+  }
+  
+  /* Small: 576px - 767px */
+  @media (max-width: 767px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  /* Extra small: 0px (320px) - 575px */
+  @media (max-width: 575px) {
+    .container {
+      padding: 0 15px;
+                                          max-width: 100%;
+    }
   }
