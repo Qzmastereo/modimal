@@ -20,6 +20,7 @@
 
         <div class="header__account header__account--first">
             <ul class="account">
+                
                 <li class="account__search">
                     <a href="#">
                         <img class="icon icon--search" src="./img/header/Header_search_icon.svg" alt="">
@@ -59,11 +60,64 @@
 
 
         <div class="header__nav-btn">
-            <button class="mobile-nav-btn">
-                <div class="nav-icon"></div>
-            </button>
+            <input type="checkbox" id="toggle">
+            <label for="toggle">
+                <span class="toggle-btn"></span>
+            </label>
+            <div class="nav_menu">
+                <details>
+                    <summary>
+                        Collection <img src="img/header/arrow.svg" alt="arrow" class="arrow-icon">
+                    </summary>
+                    <!-- Add submenu items here if needed -->
+                </details>
+                <details>
+                    <summary>
+                        New In <img src="img/header/arrow.svg" alt="arrow" class="arrow-icon">
+                    </summary>
+                    <ul>
+                        <li class="firsts-a"><a href="#">Shop All</a></li>
+                        <li><a href="#">Tops & Blouses</a></li>
+                        <li><a href="#">Tees</a></li>
+                        <li><a href="#">Pants</a></li>
+                        <li><a href="#">Jackets & Outerwear</a></li>
+                        <li><a href="#">Pullovers</a></li>
+                        <li><a href="#">Dresses & Jumpsuits</a></li>
+                        <li><a href="#">Shorts & Skirts</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>
+                        Modiweek <img src="img/header/arrow.svg" alt="arrow" class="arrow-icon">
+                    </summary>
+                    <!-- Add submenu items here if needed -->
+                </details>
+                <details>
+                    <summary>
+                        Plus Size <img src="img/header/arrow.svg" alt="arrow" class="arrow-icon">
+                    </summary>
+                    <!-- Add submenu items here if needed -->
+                </details>
+                <details>
+                    <summary>
+                        Sustainability <img src="img/header/arrow.svg" alt="arrow" class="arrow-icon">
+                        
+                    </summary>
+                    <ul>
+                        <li class="firsts-a"><a href="#">Mission</a></li>
+                        <li><a href="#">Processing</a></li>
+                        <li><a href="#">Materials</a></li>
+                        <li><a href="#">Packaging</a></li>
+                        <li><a href="#">Product Care</a></li>
+                        <li><a href="#">Our Suppliers</a></li>
+                    </ul>
+                </details>
+                <div class="auth-buttons">
+                    <button class="login-bat"><img src="img/header/Header_profile_icon.svg" alt=""><a href="login-page.html">Log In</a></button>
+                    <button class="create-account"><a href="register-page.html">Create Account</a></button>
+                </div>
+            </div>
         </div>
 
-    </div>
 </div>
 </header>

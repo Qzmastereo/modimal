@@ -140,3 +140,18 @@
   opacity: 1;
   visibility: visible;
 }
+@media (max-width: 1199px) {
+
+	}
+  @media (max-width: 992px) {
+			.plus{
+        max-width: 180px !important;
+        min-width: 175px !important;
+      }
+      .plus-menu-img{
+        max-width: 165px;
+      }
+      .plus-menu_wrap{
+        gap: 8px !important;
+      }
+	}
