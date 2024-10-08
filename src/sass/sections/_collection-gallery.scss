@@ -1,12 +1,12 @@
 .collection{
 justify-content: center;
     display: flex;
+
 }
 
 .collection__title{
     padding-top: 98px;
     margin-bottom: 32px;
-    margin-left: 231px;
 }
 
 .collection__name{
@@ -32,11 +32,72 @@ position: absolute;
     margin-top: 64px;
 }
 
+.collection__image{
+    width: 100%;
+}
+
+.collection__grid{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.collection-gall{
+display: flex;
+}
+
 .collection__image-four{
 margin-top: 144px;
 }
 
+.collection{
+    display: none;
+}
+
+.coll{
+    display: block;
+}
+
 @media (max-width: 767px) {
+
+    .collection{
+        display: flex;
+        justify-content: center;
+    }
+
+    .collection__item{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .collection-title-two{
+        display: none;
+    }
+    .collection{
+        display: flex !important;
+    }
+
+    .collection__image-one{
+        width: 100% !important;
+    }
+
+    .collection__image-two{
+        width: 100% !important;
+    }
+
+    .collection__image-third{
+        width: 100% !important;
+    }
+
+    .collection__image-four{
+        width: 100% !important;
+    }
+
+    .coll{
+display: none;
+    }
 
     .collection__name{
      position: static !important;
