@@ -140,18 +140,12 @@ document.addEventListener('DOMContentLoaded', function() {
   
 });
 
-(() => {
-    const refs = {
-      openModalBtn: document.querySelector("[data-modal-open]"),
-      closeModalBtn: document.querySelector("[data-modal-close]"),
-      modal: document.querySelector("[data-modal]"),
-    };
-  
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
-  
-    function toggleModal() {
-      refs.modal.classList.toggle("is-hidden");
-      document.body.classList.toggle("no-scroll");
-    }
-  })();
+document.getElementById('staticBackdrop').addEventListener('show.bs.modal', function () {
+    // При відкритті модального вікна блокуємо прокрутку
+    document.body.style.overflow = 'hidden';
+});
+
+document.getElementById('staticBackdrop').addEventListener('hidden.bs.modal', function () {
+    // При закритті модального вікна відновлюємо прокрутку
+    document.body.style.overflow = 'auto';
+});

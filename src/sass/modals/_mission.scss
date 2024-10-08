@@ -122,6 +122,12 @@ margin-top: 16px;
 transition: all .20s ease-in 0s;
 }
 
+
+.over{
+    background-image: url(/img/main/big\ pic\ sustainability.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .mis-but:hover{
     background-color: rgb(74, 92, 72);
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
@@ -219,7 +225,9 @@ margin: 0 auto;
 }
 
 .over{
-    height: 294px;
+height: 294px !important;
+background-size: 100%;
+
 }
 
 
