@@ -21,10 +21,11 @@ body {
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 0 auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    height: 100vh;
   }
   
   /* The Close Button */
@@ -44,11 +45,12 @@ body {
 
 .modal-content {
     background-color: white;
-    border-radius: 0;
+    border-radius: 0 !important;
     padding: 20px;
     width: 90%;
-    max-width: 19%;
+    max-width: 21%;
     display: block;
+    left: -4%;
 }
 
 .cart-btn{
@@ -270,6 +272,60 @@ button.remove-btn {
     align-items: flex-end;
 }
 
+.gall-sec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .img-gall {
+    flex: 1 1 calc(25% - 20px);
+    height: auto;
+    object-fit: cover;
+  }
+
+  @media (max-width: 982px) {
+    .modal-content{
+left: -18%;
+    }
+  }
+
+  
+  /* Стилі для широких зображень */
+  .wide-img {
+    flex: 1 1 calc(50% - 20px); /* Широке зображення займає 50% контейнера */
+  }
+  
+  /* Для планшетів */
+  @media (max-width: 768px) {
+
+    .modal-content{
+width: 100vw !important;   
+max-width: 100% !important;  
+left: 0 !important;
+margin: 0 !important;
+       }
+
+    .img-gall {
+        flex: 1 1 calc(50% - 20px); /* Зображення займають 50% контейнера */
+    }
+  
+    .wide-img {
+        flex: 1 1 calc(100% - 20px); /* Широкі зображення займають 100% контейнера */
+    }
+  }
+  
+  /* Для мобільних пристроїв */
+  @media (max-width: 480px) {
+    .img-gall {
+        flex: 1 1 calc(100% - 20px); /* Зображення займають 100% контейнера */
+    }
+  
+    .wide-img {
+        flex: 1 1 calc(100% - 20px); /* Широкі зображення займають 100% на мобільних */
+    }
+  }
+
 .tit{
     font-family: Montserrat;
     font-size: 20px;
@@ -307,9 +363,6 @@ text-align: center;
         align-items: flex-start;
     }
 
-    .modal-content{
-        max-width: 100% !important;
-    }
 
     .item-details {
         margin: 10px 0;
