@@ -38,5 +38,17 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
 </body>
+<script>
+    function toggleText(btn) {
+            const moreText = btn.previousElementSibling.querySelector(".more-text");
+            if (moreText.style.display === "none" || moreText.style.display === "") {
+                moreText.style.display = "inline";
+                btn.innerText = "Read Less <";
+            } else {
+                moreText.style.display = "none";
+                btn.innerText = "Read More >";
+            }
+        }
 
+</script>
 </html>
