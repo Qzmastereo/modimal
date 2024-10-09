@@ -165,5 +165,26 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+const removeButtons = document.querySelectorAll('.remove-btn');
+const decreaseButtons = document.querySelectorAll('.decrease');
+const increaseButtons = document.querySelectorAll('.increase');
+const quantities = document.querySelectorAll('.quantity');
+
+removeButtons.forEach(button => {
+    button.onclick = function() {
+        button.closest('.cart-item').remove();
+        updateSummary();
+    }
+});
+
+decreaseButtons.forEach((button, index) => {
+    button.onclick = function() {
+        let quantity = parseInt(quantities[index].textContent);
+        if (quantity > 1) {
+            quantities[index].textContent = --quantity;
+            updateSummary();
+        }
+    }
+});
 
 
