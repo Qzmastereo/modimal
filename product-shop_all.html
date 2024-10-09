@@ -16,8 +16,8 @@
 
     <title>Modimal</title>
   <script type="module" crossorigin src="./assets/vendor-c4916ffe.js"></script>
-  <script type="module" crossorigin src="./assets/index-60975101.js"></script>
-  <link rel="stylesheet" href="./assets/main-c9dcda2a.css">
+  <script type="module" crossorigin src="./assets/index-b014f047.js"></script>
+  <link rel="stylesheet" href="./assets/main-ed6062c8.css">
 </head>
 
 <body>
@@ -134,7 +134,7 @@
                         <img class="icon icon--bag " id="myBtn" src="./assets/Header_bag_icon-359dcf91.svg" alt="">
                         <div id="myModal" class="modal">
 
-                            <!-- Modal content -->
+                            
                             <div class="modal-content">
                                 <span class="close">&times;</span>
                                 <p class="tit">Your Cart</p>
@@ -448,10 +448,16 @@
         <p>Shop-All</p>
     </div>
     </div>
-    <div class="bag"></div>
+    <div class="bag">
+        <img class="shop-all_photo" src="./assets/shop-all-bg-0ca5ce6c.png" alt="">
+    </div>
 </section>
 <section class="shop-all">
     <div class="container">
+        <div class="filter-mob__button">
+            <img src="./assets/filter-7006f42a.svg" alt="">
+            <p class="filter__text">Filter</p>
+        </div>
         <div class="row mt-4">
     <div class="col-lg-3">
         <div class="accordion-title">Filters</div>
@@ -641,7 +647,7 @@
         </div>
     </div>
             <div class="col-lg-9">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+                <div class="row row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4">
 
                     <div class="col product-card">
                         <a href="product_order.html" class="shop-all__link">
@@ -838,5 +844,12 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
 </body>
+<script>
+    const filterButton = document.querySelector('.filter-mob__button');
+    const filterColumn = document.querySelector('.col-lg-3');
 
+    filterButton.addEventListener('click', () => {
+        filterColumn.classList.toggle('show');
+    });
+</script>
 </html>
