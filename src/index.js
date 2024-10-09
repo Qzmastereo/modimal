@@ -187,15 +187,4 @@ decreaseButtons.forEach((button, index) => {
     }
 });
 
-increaseButtons.forEach((button, index) => {
-    button.onclick = function() {
-        let quantity = parseInt(quantities[index].textContent);
-        quantities[index].textContent = ++quantity;
-        updateSummary();
-    }
-});
 
-function updateSummary() {
-    // Обновлення суми замовлення та інших елементів підсумку
-    // Це можна реалізувати додатково залежно від вашого підходу до калькуляції
-}

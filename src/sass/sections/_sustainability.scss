@@ -5,6 +5,10 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 110px;
+
+    @media (max-width: 992px)  {
+        height: 360px;
+    }
 }
 
 .background {
@@ -14,26 +18,43 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
+
+    @media (max-width: 992px)  {
+        background-position: right;
+    }
+}
+
+.sustainability__ul {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 10px;
 }
 
 .sustainability__text {
     width: 500px;
-    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    left: 54%;
-    top: 67%;
+    
+    @media (max-width: 992px)  {
+        width: 440px;
+    }
 }
 
 .sustainability__btn {
     border: none;
     padding: 8px 44px;
-    position: relative;
     font-family: 'Montserrat', sans-serif;
-    left: 78%;
-    top: 70%;
+    
     font-size: 14px;
     background-color: white;
+
+    @media (max-width: 992px)  {
+        margin-top: 20px;
+    }
 }
 
 .sustainability__btn:hover {
