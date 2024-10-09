@@ -38,7 +38,8 @@ const swiper = new Swiper(".mySwiper", {
         },
       },
     },
-  });
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     const openCollectionBtn = document.querySelector('.open-collection');
     const collectionMenu = document.querySelector('.collection-menu');
@@ -165,37 +166,4 @@ window.onclick = function(event) {
   }
 }
 
-const removeButtons = document.querySelectorAll('.remove-btn');
-const decreaseButtons = document.querySelectorAll('.decrease');
-const increaseButtons = document.querySelectorAll('.increase');
-const quantities = document.querySelectorAll('.quantity');
 
-removeButtons.forEach(button => {
-    button.onclick = function() {
-        button.closest('.cart-item').remove();
-        updateSummary();
-    }
-});
-
-decreaseButtons.forEach((button, index) => {
-    button.onclick = function() {
-        let quantity = parseInt(quantities[index].textContent);
-        if (quantity > 1) {
-            quantities[index].textContent = --quantity;
-            updateSummary();
-        }
-    }
-});
-
-increaseButtons.forEach((button, index) => {
-    button.onclick = function() {
-        let quantity = parseInt(quantities[index].textContent);
-        quantities[index].textContent = ++quantity;
-        updateSummary();
-    }
-});
-
-function updateSummary() {
-    // Обновлення суми замовлення та інших елементів підсумку
-    // Це можна реалізувати додатково залежно від вашого підходу до калькуляції
-}
