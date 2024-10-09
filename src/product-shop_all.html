@@ -38,5 +38,12 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
 </body>
+<script>
+    const filterButton = document.querySelector('.filter-mob__button');
+    const filterColumn = document.querySelector('.col-lg-3');
 
+    filterButton.addEventListener('click', () => {
+        filterColumn.classList.toggle('show');
+    });
+</script>
 </html>

@@ -38,7 +38,8 @@ const swiper = new Swiper(".mySwiper", {
         },
       },
     },
-  });
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     const openCollectionBtn = document.querySelector('.open-collection');
     const collectionMenu = document.querySelector('.collection-menu');
@@ -164,3 +165,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
