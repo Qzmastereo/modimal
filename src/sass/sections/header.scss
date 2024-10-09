@@ -10,6 +10,9 @@
 	}
 	.container{
 		--bs-gutter-x: 0;
+    @media (max-width: 768px) {
+		--bs-gutter-x: 1.5rem;
+	}
 	}
 	&__row {
 		display: flex;
@@ -270,4 +273,9 @@
       }
     }
   }
+}
+.modiweek{
+  @media (max-width: 992px) {
+			display: none;
+	}
 }

@@ -153,10 +153,8 @@ $btn-hover-color: #8da685;
     background-size: cover;
     position: relative;
     width: 100%;
-    margin-right: 100vw;
     width: 100vw;
     max-width: none;
-    margin-left: calc(50% - 50vw);
 }
 
 .load-more {
@@ -321,12 +319,7 @@ $btn-hover-color: #8da685;
     }
   }
 @media (max-width: 575px) {
-  .product-card .card {
-    .card-img-top {
-      height: 260px;  
-    }
-    
-    }
+
     .product-card:first-child {
         margin-bottom: 0;
     }
