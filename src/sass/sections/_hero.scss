@@ -62,3 +62,15 @@
 	}
   }
 }
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+     background-image: url("../img/optimize/hero/hero_2x.webp");
+  background-size: cover;
+  background-position: 30% center;
+  background-repeat: no-repeat;
+    
+  }
+}
