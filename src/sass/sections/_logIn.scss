@@ -1,18 +1,36 @@
 .logIn {
-    height: 837px;
     margin: 20px;
 }
-
-
 
 .logIn .container {
     height: 100%;
     
 }
 
+.register__img {
+    width: 600px;
+    height: 837px;
+    background-image: url('../../img/register/Frame\ 26086866.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media (max-width: 992px) {
+        height: 360px;
+        width: 100%;
+        
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 .logIn__wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 992px) {
+        flex-direction: column;
+    }
 }
 
 .logIn__logIn {
@@ -26,8 +44,14 @@
     font-weight: 600;
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
-    padding: 121px 0 32px 0;
+    padding: 70px 0 32px 0;
     margin: 0;
+
+    @media (max-width: 992px) {
+        font-weight: 700;
+        font-size: 22px;
+        padding: 28px 0 32px 0 ;
+    }
 }
 
 .logIn__input {
