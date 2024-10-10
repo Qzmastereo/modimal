@@ -279,3 +279,12 @@
 			display: none;
 	}
 }
+  @media (max-width: 992px) {
+			.account{
+        gap: 0;
+        margin-left: 0;
+      }
+      .nav__list{
+        gap: 5px !important;
+      }
+	}
