@@ -9,6 +9,11 @@
   .hidden {
   display: none; 
 }
+
+#conn{
+  display: flex !important;
+}
+
   .container {
     display: flex;
     justify-content: space-between;
