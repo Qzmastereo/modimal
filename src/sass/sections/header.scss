@@ -66,7 +66,7 @@
 }
 }
      .modiweek{
-  margin-bottom: 0 !important;
+  margin-bottom: 10px !important;
 }
 }
 .header__account--first{
@@ -74,7 +74,7 @@
 }
 .nav__list {
 	display: flex;
-	gap: 46px;
+	gap: 36px;
 	list-style: none;
 	margin-top: 7px;
 	align-items: center;
@@ -132,17 +132,26 @@
 			padding-left: 0;
 	}
   @media (max-width: 992px) {
-			gap: 0;
-      margin-left: 0;
-			padding-left: 0;
-
-      li{
-          margin-right: 3px;
-          margin-left: 3px;
+			gap: 0 !important;
+      margin-left: 0 !important;
+			padding-left: 0 !important;
+  .header__account{
+  li{
+          margin-right: 3px !important;
+          margin-left: 3px !important;
         }
+}  
 	}
 	
 }
+@media (max-width: 768px) {
+  .header__account{
+  li{
+          margin: 10px !important;
+        }
+}  
+	}
+	
 .open-collection {
   cursor: pointer;
 }
