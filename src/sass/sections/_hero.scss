@@ -1,6 +1,7 @@
 .hero {
   height: 600px;
   padding-bottom: 103px;
+  max-width: 1920px;
   font-family: "Montserrat", sans-serif;
   background-image: url("../img/optimize/hero/hero.webp");
   background-size: cover;
@@ -60,17 +61,5 @@
 		max-width: 168px;
 		font-size: 20px;
 	}
-  }
-}
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-     background-image: url("../img/optimize/hero/hero_2x.webp");
-  background-size: cover;
-  background-position: 30% center;
-  background-repeat: no-repeat;
-    
   }
 }
