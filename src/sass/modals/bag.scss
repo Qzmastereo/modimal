@@ -296,6 +296,9 @@ left: -18%;
     flex: 1 1 calc(50% - 20px); /* Широке зображення займає 50% контейнера */
   }
   
+  .cart-flex{
+    align-items: center;
+  }
   /* Для планшетів */
   @media (max-width: 768px) {
 

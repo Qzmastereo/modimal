@@ -486,7 +486,12 @@ padding: 0 !important;}
   .order-summary {
     width: 37%;
     padding: 30px;
-    border-radius: 8px;
+  }
+
+
+  .decorate{
+    text-decoration: none;
+    color: white;
   }
   
   .cart-item {
@@ -1114,4 +1119,9 @@ text-align: left;
     .user-navigation {
         margin-top: 10px;
     }
+}
+
+
+.connn{
+  display: flex;
 }
