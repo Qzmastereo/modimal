@@ -49,13 +49,15 @@
         margin-left: 0;
       }
       .nav__list{
-        gap: 5px !important;
+        gap: 7px !important;
       }
-	}
-.modiweek{
+      .modiweek{
+  display: none;
+}
+}
+     .modiweek{
   margin-bottom: 0 !important;
 }
-  
 }
 .header__account--first{
   display: flex;
