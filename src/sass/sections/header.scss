@@ -47,9 +47,19 @@
 			.account{
         gap: 0;
         margin-left: 0;
+
+        li{
+          margin-right: 3px;
+          margin-left: 3px;
+        }
       }
       .nav__list{
-        gap: 7px !important;
+        gap: 5px !important;
+        padding-left: 0 !important;
+
+        li{
+          width: 95px;
+        }
       }
       .modiweek{
   display: none;
@@ -119,6 +129,11 @@
 	@media (max-width: 1199px) {
 			gap: 12px;
 			margin-left: 12px;
+			padding-left: 0;
+	}
+  @media (max-width: 992px) {
+			gap: 0;
+      margin-left: 0;
 			padding-left: 0;
 	}
 	
